@@ -5,36 +5,82 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
   <link href="/dist/styles.css" rel="stylesheet">
+
+  <script type="text/javascript">
+    function onSubmit() {
+        alert('Currently down for maintenance!')
+    }
+  </script>
+
 </head>
 <!-- Made with tailwind CSS-->
 
 <!-- NAVIGATION BAR-->
-<body class="bg-slate-400">
-  <div class="bg-slate-100 shadow-inner">
+<body class="bg-slate-100 ">
+  <nav>
+  <div class="bg-slate-100 ">
   <ul class="flex">
-    <img src="../images/logoUFVZoo.png" class="px-5 md:px-10 md:w-auto md:h-auto " alt="..." />
+    <a href="./landing.html">
+      <img src="../images/logoUFVZoo.png" class="px-5 md:px-10 md:w-auto md:h-auto " alt="..." /></a>
     <li class="md:mr-10 md:ml-5 py-5 mr-5">
-      <a class="text-green-700 hover:text-yellow-800  hover:cursor-pointer  text-sm md:text-2xl font-custom  href="#">Visit</a>
+      <a class="text-green-700 hover:text-yellow-800 hover:underline hover:cursor-pointer  text-sm md:text-2xl font-custom " href="./Visit.html">Visit</a>
     </li>
-    <li class="md:mr-10 md:ml-5 sm:ml-2 sm:mr-10 py-5">
-      <a class="text-green-700 hover:text-yellow-800 hover:cursor-pointer text-sm md:text-2xl font-custom href="#">Tours</a>
-    </li>
+
     <li class="md:mr-10 md:ml-5 ml-4 sm:mr-10 py-5">
-      <a class="text-green-700 hover:text-yellow-800  hover:cursor-pointer text-sm md:text-2xl font-custom href="#">Animals</a>
+      <a class="text-green-700 hover:text-yellow-800  hover:cursor-pointer text-sm md:text-2xl font-custom " href="./Animals.html">Animals</a>
       </li>
       <li class="mr-10 ml-5 py-5">
-        <a class="text-green-700 hover:text-yellow-800  hover:cursor-pointer text-sm md:text-2xl font-custom href="#">Contact</a>
+        <a class="text-green-700 hover:text-yellow-800  hover:cursor-pointer text-sm md:text-2xl font-custom " href="./contact.html">Contact</a>
         </li>
+
   </ul> 
 </div>
+
 <!-- END OF NAVBAR-->
 <div class = "w-full relative">
   <div class="w-full h-full flex flex-col absolute">
-  <div> test</div>
-  </div>
-    <img src="../images/homeBear.jpg" class="bg-gray-400 py-1" alt="..." />
+
+  <div class = "m-4 top-1/3 md:top-1/4 relative  px-10 text-lg bg-slate-200  w-fit md:text-6xl py-2 text-green-600" style="font-family: 'Raleway', sans-serif;"> 
+    Celebrate life with us!</div>
+    <div class = "m-4 top-1/3 md:top-1/4 relative  px-10 text-lg bg-slate-200  w-fit md:text-6xl py-2 text-green-600" style="font-family: 'Raleway', sans-serif;"> 
+      OPEN NOW</div>  
+    
+    </div>
+  
+    <img src="../images/homeBear.jpg" class=" " alt="..." />
   
 </div>
+<div class = "bg-green-800 py-3 md:py-4">
+  <p class=" text-3xl md:text-5xl text-center text-white md:py-7" style="font-family: 'Raleway',sans-serif" > 
+    OUR LOCATIONS
+  </p>
+  <p class=" text-md md:text-3xl text-center text-white py-1 md:py-3" style="font-family: 'Comfortaa',cursive" > 
+    33844 King Rd, Abbotsford, BC V2S 7M7
+    </p>
+  <p class=" text-3xl md:text-5xl text-center text-white py-2 md:py-7" style="font-family: 'Raleway',sans-serif">
+     HOURS
+    </p>
+    <p class=" text-md md:text-3xl text-center text-yellow-400  md:py-3" style="font-family: 'Comfortaa',cursive" > 
+      Monday - Friday : 6:00AM - 9:00PM
+      </p>
+</div>  
+<div class="flex justify-center  py-10 text-justify">
+  <p class="flex-none w-1/6 h-14 text-3xl md:text-7xl " style="font-family: 'Raleway',sans-serif">
+    EMBRACE YOUR NATURAL SELF
+  </p>
+  <div class="flex-initial  px-16 md:w-1/4 ...">
+   <p style="font-family: 'Comfortaa',cursive" class="md:text-xl text-sm px-1 md:py-5"> The more clearly we can focus our attention on the wonders and realities of the universe about us the less taste we shall have for the destruction of our race.
+  </p>
+    
+    <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded" onclick="onSubmit()">
+      BUY TICKETS! (temporarily closed)
+    </button>
+  </div>
 
+</div>
+<div class = "bg-green-800 py-2 md:py-10">
+  <p class="text-center text-white text-xl" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; "> By Gabriel Luis Rodriguez </p>
+
+</div>
 </body>
 </html>
