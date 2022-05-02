@@ -1,2 +1,2 @@
 # College-Zoo
- A finals project currently in progress, showcasing a informating and help desk website. Learning tailwind in the process of making this.
+Finals project for my university classes. Uses HTML, CSS, some JS. Also used this project as an opportunity to learn CSS framework Tailwind.
